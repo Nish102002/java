@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class TwoDimen {
 	public void acceptValue(int y[][]) {
+		
 		Scanner sc=new Scanner (System.in);
 		System.out.println("Enter no.:");
 		for (int k = 0; k < y.length; k++) {
