@@ -1,7 +1,8 @@
 package homework;
 import java .util.Scanner;
 public class First_last {
-// write a java program accept number from user and perform sum of digit of numbers until number comes single unit
+//  Write a function named "sumFromTo" that takes two integer arguments, call them "first" and
+// "last", and returns as its value the sum of all the integers between first and last inclusive.
 	  
 	public static void main(String[] args) {
 		First_last F1=new First_last();
