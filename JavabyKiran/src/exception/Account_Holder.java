@@ -26,9 +26,6 @@ public class Account_Holder {
 				throw new Insufficient_Balance("Withdrawal successful ");
 			}
 			
-			
-			
-			
 		}
 		catch(Insufficient_Balance b) {
 			b.showerror();
