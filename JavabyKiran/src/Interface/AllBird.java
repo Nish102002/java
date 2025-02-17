@@ -10,6 +10,11 @@ public class AllBird {
 		B.sound();
 		
 		T.speak();
+		
+		Bird adaptedWoodenKoyal=new BirdAdapter(woodenKoyal);
+		 adaptedWoodenKoyal.fly();
+	        adaptedWoodenKoyal.sound();
+		
 	}
 
 	
